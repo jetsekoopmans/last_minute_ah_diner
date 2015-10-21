@@ -9,7 +9,6 @@ class ApplicationController < ActionController::Base
   end
 
   def show
-    binding.pry
     location = params['location']
     persons = params['persons']
     city = 'http://www.ahrestaurantactie.nl/direct_reserveren/zoek_restaurants.htm?fh_start_index=0&fh_location=' + location + '/num_persons%3E{a' + persons + '}'
