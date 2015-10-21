@@ -23,11 +23,11 @@ body {
 
 @font-face {
   font-family: 'codropsicons';
-  src:url('codropsicons/codropsicons.eot');
-  src:url('codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-    url('codropsicons/codropsicons.woff') format('woff'),
-    url('codropsicons/codropsicons.ttf') format('truetype'),
-    url('codropsicons/codropsicons.svg#codropsicons') format('svg');
+  src:url('codropsicons.eot');
+  src:url('codropsicons.eot?#iefix') format('embedded-opentype'),
+    url('codropsicons.woff') format('woff'),
+    url('codropsicons.ttf') format('truetype'),
+    url('codropsicons.svg#codropsicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -162,11 +162,11 @@ a:active {
 
 @font-face {
   font-family: 'nlicons';
-  src:url('nlicons/nlicons.eot');
-  src:url('nlicons/nlicons.eot?#iefix') format('embedded-opentype'),
-    url('nlicons/nlicons.woff') format('woff'),
-    url('nlicons/nlicons.ttf') format('truetype'),
-    url('nlicons/nlicons.svg#nlicons') format('svg');
+  src:url('nlicons.eot');
+  src:url('nlicons.eot?#iefix') format('embedded-opentype'),
+    url('nlicons.woff') format('woff'),
+    url('nlicons.ttf') format('truetype'),
+    url('nlicons.svg#nlicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
