@@ -64,8 +64,8 @@ class ApplicationController < ActionController::Base
         second_time = first_time + 210
         new_links << link_with_no_time + "&time=" + second_time.to_s
         
-        third_time = second_time + 210
-        new_links << link_with_no_time + "&time=" + third_time.to_s
+        # third_time = second_time + 210
+        # new_links << link_with_no_time + "&time=" + third_time.to_s
 
         puts new_links
         name = ""
