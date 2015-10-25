@@ -1,6 +1,9 @@
-- @restaus.each do |restau|
-  = restau['name']
-  = restau['location']
-  = restau['timeslots']
-  %br
-  %br
+%h1 Restaurants for tonight
+.restaurants
+:javascript
+  var links = jQuery.parseJSON('#{raw(@links.to_json)}');
+  for (linkje in links) {
+    $.post( "restaurant", { link: links[linkje] }).done(function( data ) {
+        $( ".restaurants" ).append( "<tr><td>" + data.name + "</td>" + "<td>" + data.location + "</td>" + "<td>" + data.timeslots + "</td><tr>" );
+    }, "json");
+  }
